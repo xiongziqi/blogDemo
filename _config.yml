@@ -1,3 +1,18 @@
 encoding: utf-8
 
+# Site settings
+title: Ziqi & ML
+SEOTitle: 熊搞机器学习 | Ziqi & ML
+email: xiongziqi84@gmail
+description: "熊搞机的笔记"
+keyword: "ML, DL, NLP, KG"
+url: "http://xiongziqi.cc/"
 baseurl :
+
+# Sidebar settings
+sidebar: true
+sidebar-about-description: "这一块准备用来搞导航或者统计"
+sidebar-avatar: /img/nesterov_accelerated_gradient.png
+
+# RSS
+github_username: xiongziqi
