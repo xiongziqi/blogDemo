@@ -2,4 +2,13 @@
 layout: default
 title: 熊搞机
 ---
-<p>熊子奇的机器学习!</p>
+
+<h2>{{page.title}}</h2>
+
+<P>最新</P>
+
+<ul>
+    {% for post in site.posts %}
+    <li>{{ post.date|date_to_string}} <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+    {% endfor %}
+</ul>
